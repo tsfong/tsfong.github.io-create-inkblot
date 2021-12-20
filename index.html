@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Create an Inkblot</title>
+
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="images.favicon.png" />
+    </head>
+
+    <body> 
+        <nav class= "menu">
+            <h1 class="underline"><a href="index.html">Create Your Own!</a></h1>
+            <h3 class="underline"><a href="about.html">Back to Previous Page</a></h3>
+            <h3 id="clear" value="Clear">Reset Canvas</h3>
+        </nav>
+        
+        <canvas id="canvas"></canvas>
+        
+        <div id="instructions">
+            <h2>Click and Drag to Draw</h2>
+        </div>
+
+        <!-- IF CDN fails to load, serve up the local version -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
+
